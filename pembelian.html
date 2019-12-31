@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasti OK</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php" style="font-size: 25px;">Pasti Ok</a> 
+            </div>
+  <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right;
+font-size: 16px;"><a href="login.php" class="btn btn-danger square-btn-adjust">Logout</a></div>
+        </nav>   
+           <!-- /. NAV TOP  -->
+                <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+				<li class="text-center">
+                    <img src="assets/img/online.jpg" class="user-image img-responsive"/>
+					</li>
+				
+					
+                    
+                    <li><a href="produk.html"><i class="fas fa-box-open fa-3x " style="color: white;"></i> produk</a></li>
+                    <li><a href="pembelian.html"><i class="fa fa-shopping-cart fa-3x"></i> pembelian</a></li>
+                    <li><a href="Anggota.html"><i class="fa fa-user fa-3x"></i>Anggota</a></li>
+                    
+                   
+                    
+                        	
+                </ul>
+               
+            </div>
+            
+        </nav>  
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper" >
+            <div id="page-inner">
+                <h2>Data Pembelian</h2>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remove HTML Table Selected Row</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            td:last-child{;cursor: pointer;}
+        </style>
+    </head>
+    <body>
+        
+        <table id="table" class="table table-boredered">
+            <thead>
+            <tr>
+            <th>No</th>
+            <th>Nama Pembeli</th>
+            <th>Gmail</th>
+            <th>No Telp</th>
+            <th>Nama Produk yang Dibeli</th>
+            <th>Harga Produk</th>
+            <th>Foto Produk</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Muhammad Nasirul Umam</td>
+                <td>irol@gmail.com</td>
+                <td>083853003115</td>
+                <td>Sepatu Kets</td>
+                <td style="font-size: 11px;">Rp 550.000</td>
+                <td><img src="assets/img/sepatu6.jpg" width="60"></td>
+                <td><button class="btn btn-danger">Batalkan Pembelian</button></td>
+            </tr>
+            
+            <td>2.</td>
+                <td>Faris Aditiya</td>
+                <td>Faris12@gmail.com</td>
+                <td>083853003115</td>
+                <td>Sepatu Nike Santai</td>
+                <td style="font-size: 11px;">Rp 230.000</td>
+                <td><img src="assets/img/Sepatu5.png" width="60"></td>
+                <td><button class="btn btn-danger">Batalkan Pembelian</button></td>
+            </tr>
+            
+           <td>3.</td>
+                <td>Muhammad Habillah Rais</td>
+                <td>habibulah12@gmail.com</td>
+                <td>083853003115</td>
+                <td>Jacket Adidas</td>
+                <td style="font-size: 11px;">Rp 320.000</td>
+                <td><img src="assets/img/j7.jpg" width="60"></td>
+                <td><button class="btn btn-danger">Batalkan Pembelian</button></td>
+            </tr>
+            
+            <tr>
+                <td>4.</td>
+                <td>jhon doe</td>
+                <td>jhondoe17@gmail.com</td>
+                <td>088372384947</td>
+                <td>Jacket Polos</td>
+				<td style="font-size: 11px;">Rp 390.000</td>
+                <td><img src="assets/img/j2.png" width="60"></td>
+                <td><button class="btn btn-danger">Batalkan Pembelian</button></td>
+            </tr>
+            
+          <tr>
+                <td>5.</td>
+                <td>M Nasirul Umam</td>
+                <td>irol34@gmail.com</td>
+                <td>083853003115</td>
+                <td>Kaos Gradasi</td>
+				<td style="font-size: 11px;">Rp 120.000</td>
+                <td><img src="assets/img/wk2.jpg" width="60"></td>
+                <td><button class="btn btn-danger">Batalkan Pembelian</button></td>
+            </tr>
+
+         
+            </tbody>
+        </table>
+        
+        <script>
+    
+            var index, table = document.getElementById('table');
+            for(var i = 1; i < table.rows.length; i++)
+            {
+                table.rows[i].cells[7].onclick = function()
+                {
+                    var c = confirm("Apakah kamu akan menghapus Produk ini");
+                    if(c === true)
+                    {
+                        index = this.parentElement.rowIndex;
+                        table.deleteRow(index);
+                    }
+                    
+                    //console.log(index);
+                };
+                
+            }
+    
+        </script>
+        
+    </body>
+</html>
+
+
+
+              
+            </div>
+             <!-- /. PAGE INNER  -->
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+     <!-- MORRIS CHART SCRIPTS -->
+     <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    
+   
+</body>
+</html>
